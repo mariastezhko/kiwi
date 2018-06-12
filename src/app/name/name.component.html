@@ -1,0 +1,18 @@
+
+<a href [routerLink]="['../name']">Back to Account</a>
+
+<div id="name">
+  <h1>What is the child's <span>name</span>?</h1>
+
+  <form (submit) = "onAdd()" class="postForm">
+    <div class="box">
+      <p>First Name</p>
+      <input class="textbox left" type="text" name="newChild.firstname" [(ngModel)] = "newChild.firstname"/>
+    </div>
+    <div class="box">
+      <p>Last Name</p>
+      <input class="textbox right" type="text" name="newChild.firstname"/>
+    </div>
+      <input class="btn" type="submit" value="Next >>" />
+  </form>
+</div>

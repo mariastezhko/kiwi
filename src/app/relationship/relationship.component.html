@@ -1,0 +1,43 @@
+
+<a href [routerLink]="['../name']">Back to Account</a>
+
+<h1>What is {{gender}} <span>relationship</span> to you?</h1>
+
+<form (submit) = "onDone()" class="postForm">
+<table cellspacing="20">
+  <tr>
+    <td>
+      <div class="radio">
+        <label><input type="radio" name="optradio">{{child}}</label>
+      </div>
+    </td>
+    <td>
+      <div class="radio">
+        <label><input type="radio" name="optradio">Family Friend</label>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="radio">
+        <label><input type="radio" name="optradio">{{grandchild}}</label>
+      </div>
+    </td>
+    <td>
+      <div class="radio">
+        <label><input type="radio" name="optradio">Other</label>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="radio">
+        <label><input type="radio" name="optradio">{{niecenephew}}</label>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+    <input class="btn" type="submit" value="Done!" />
+</form>

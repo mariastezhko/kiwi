@@ -1,0 +1,8 @@
+
+
+<a id="back" href [routerLink]="['../name']"><span>Back to Account</span></a>
+
+<h1>Select {{firstname}}'s <B>gender</B>:</h1>
+
+<a href [routerLink]="['../relationship']" [queryParams]="{ gender: 'her'}"><img src="http://icdn.kiwicrate.com/site/account/gender-girl.png"></a>
+<a href [routerLink]="['../relationship']" [queryParams]="{ gender: 'his'}"><img src="http://icdn.kiwicrate.com/site/account/gender-boy.png"></a>

@@ -1,0 +1,12 @@
+
+<a href [routerLink]="['../name']">Back to Account</a>
+
+<h1>When is {{firstname}}'s <span>birthday</span>?</h1>
+
+<img src="https://icdn.kiwicrate.com/site/account/punchcard/onboarding/letscelebrate.png">
+
+<form (submit) = "onBirthday()" class="postForm">
+    <input type="date" name="birthday" />
+
+    <input class="btn" type="submit" value="Next >>" />
+</form>

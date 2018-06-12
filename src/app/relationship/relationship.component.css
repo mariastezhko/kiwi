@@ -1,0 +1,65 @@
+a {
+  color: #36bebe;
+  text-decoration: none;
+}
+
+a:before { content:"\00ab "; }
+
+:host {
+    background-color: #f7f7f7;
+    padding: 0;
+    height:90vh;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.btn {
+  font-family: "Museo Sans",Arial,Helvetica,Verdana,sans-serif;
+  padding: 8px 40px;
+  font-size: 15px;
+  margin: 10px auto;
+  border-bottom-width: 3px;
+  background-color: #ff8f32;
+  border-color: transparent;
+  border-bottom: solid 2px #e26e17;
+  display: block;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 1.42857;
+  color: #fff;
+  user-select: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  width: 326px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate;
+    border-spacing:0 5px;
+}
+
+td {
+  text-align: left;
+  width: 150px;
+}
